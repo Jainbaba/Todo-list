@@ -40,29 +40,6 @@ Start the server
 ## Run docker
 [Docker Repositories](https://hub.docker.com/repository/docker/jainbaba/todolist-api/general)
 
-Clone the project
-
-```bash
-  git clone https://github.com/Jainbaba/Todo-list.git
-```
-
-Go to the project directory
-
-```bash
-  cd Todo-list
-```
-Start the server
-
-```bash
-  docker-compose up -d
-```
-
-End the server
-
-```bash
-  docker-compose down
-```
-
 ## Documentation
 
 [Documentation](https://documenter.getpostman.com/view/14498526/2s93CExcC6)
