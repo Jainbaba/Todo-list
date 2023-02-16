@@ -37,7 +37,7 @@ Start the server
   python run.py
 ```
 
-## Run docker
+## Docker
 [Docker Repositories](https://hub.docker.com/repository/docker/jainbaba/todolist-api/general)
 
 ## Documentation
