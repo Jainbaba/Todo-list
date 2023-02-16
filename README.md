@@ -37,6 +37,24 @@ Start the server
   python run.py
 ```
 
+## Run docker
+
+Clone the project
+
+```bash
+  git clone https://github.com/Jainbaba/Todo-list.git
+```
+
+Go to the project directory
+
+```bash
+  cd Todo-list
+```
+Start the server
+
+```bash
+  docker-compose up -d
+```
 
 ## Documentation
 
