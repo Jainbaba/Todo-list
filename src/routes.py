@@ -46,6 +46,9 @@ def createTask():
     if not requestBody.get('name') or not requestBody.get('id'):
         return {'error': 'Request body is invalid',}, 400
     
+    if Task.query.filter(Task.task_id == requestBody.get('id')).all():
+        return {'error': 'Task Id is already present. Failed to Create',}, 400
+    
     id = requestBody.get('id')
     name = requestBody.get('name')
     new_task = Task(task_id=id,task_name=name)
